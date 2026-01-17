@@ -10,7 +10,6 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  border: 1px solid black;
 }
 .header{
   padding-top: 4rem;
@@ -34,13 +33,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 1px solid black; */
 }
 .container{
   width: 434px;
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
   gap: 1rem;  
 }
 .container h1{
@@ -53,7 +50,7 @@ body{
   align-items: center;
   position: relative;
   text-decoration: none;
-  border: 1px solid black;
+  border: 1px solid grey;
   height: 3rem;
   font-weight: 700;
   color: black;
@@ -86,7 +83,6 @@ body{
   text-decoration: underline;
   text-decoration-color: grey;
   text-decoration-thickness: 2px;
-  border-bottom: 1px solid grey;
 }
 a img{
   position: absolute;
@@ -116,6 +112,14 @@ a img{
   width: 100%;
   border: none;
   background-color: transparent;
+  transition: none;
+}
+input{
+  font-size: 18px;
+  padding-left: 4px;
+}
+input:focus{
+  outline: none;
 }
 @media screen and (max-width:460px) {
   .container{
